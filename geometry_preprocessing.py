@@ -21,3 +21,4 @@ def compute_elongation(polygon):
     minor_axis = min(edge_lengths)
     
     return major_axis / minor_axis if minor_axis > 0 else 1
+#test
